@@ -34,37 +34,38 @@ resource:
     newSize: 0    
 ```
 
+
+todo: group pull request types ? 
+
+## pullrequest-common
+resource:
+    repository:
+        remoteUrl: ""
+    pullRequestId: 0
+    status: ""
+    creationDate: ""
+    mergeStatus: ""
+    mergeId: ""
+    sourceRefName: ""
+    targetRefName: """
+
+
 ## git.pullrequest.created.json
 Useful fields:
 ```
-resource:
-    repository:
-        remoteUrl: ""
-    pullRequestId: 0
-    status: ""
-    creationDate: ""
-    mergeStatus: ""
-    ?mergeId: ""
-    ?sourceRefName: ""
-    ?targetRefName: ""
+- pullrequest-common
     
 ```
-
 ## git.pullrequest.merged.json/git.pullrequest.updated.json
 Useful fields:
+todo: double check if there's a double event trigger of updated+merged on pr merge
 ```
+- pullrequest-common
 resource:
-    repository:
-        remoteUrl: ""
-    pullRequestId: 0
-    status: ""
-    closedDate: ""
-    creationDate: ""
-    mergeStatus: ""
-    ?mergeId: ""
-    ?sourceRefName: ""
-    ?targetRefName: ""
+    closedDate: """"
 ```
+## git.pullrequest.updated.json
+todo: double check if there's a double event trigger of updated+merged on pr merge
 
 ## git.push.json
 ```

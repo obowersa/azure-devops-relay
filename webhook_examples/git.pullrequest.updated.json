@@ -65,7 +65,7 @@
         "description": " - test2\r\n",
         "sourceRefName": "refs/heads/mytopic",
         "targetRefName": "refs/heads/master",
-        "mergeStatus": "succeeded",
+        "mergeStatus": "succeeded", 
         "mergeId": "a10bb228-6ba6-4362-abd7-49ea21333dbd",
         "lastMergeSourceCommit": {
           "commitId": "53d54ac915144006c2c9e90d2c7d3880920db49c",
