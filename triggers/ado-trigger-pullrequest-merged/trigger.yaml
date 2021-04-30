@@ -1,0 +1,26 @@
+apiVersion: integration/v1
+kind: Trigger
+name: ado-trigger-pullrequest-merged
+version: 1
+summary: Azure Devops pull request merged
+
+description: |
+  This trigger fires when an Azure Devops pull request is merged.
+responders:
+- webhook
+
+schemas:
+  spec:
+    $schema: http://json-schema.org/draft-07/schema#
+  event:
+    source: file
+    file: event.schema.json
+
+build:
+  apiVersion: build/v1
+  kind: Docker
+
+publish:
+  repository: 
+
+examples:

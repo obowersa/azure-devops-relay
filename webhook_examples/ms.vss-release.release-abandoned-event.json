@@ -1,0 +1,185 @@
+{
+    "method": "POST",
+    "path": "/",
+    "query": {},
+    "headers": {
+      "x-forwarded-for": "40.74.28.4",
+      "x-forwarded-proto": "https",
+      "x-forwarded-port": "443",
+      "host": "114024cc690dbfeb3e3fa269c3ce447f.m.pipedream.net",
+      "x-amzn-trace-id": "Root=1-608c5a1a-7371db5a2165ec3661746909",
+      "content-length": "4803",
+      "x-vss-activityid": "0d464066-facf-0001-dfef-4ac93e32d701",
+      "x-vss-subscriptionid": "00000000-0000-0000-0000-000000000000",
+      "user-agent": "VSServices/16.183.31126.1 (w3wp.exe)",
+      "content-type": "application/json; charset=utf-8",
+      "request-context": "appId=cid-v1:170d3aea-0aa1-4cd0-9cf2-018ca9393b0c",
+      "request-id": "|f31c50e05e90454ab18f92340fc21217.9402d72606caa74e.",
+      "traceparent": "00-f31c50e05e90454ab18f92340fc21217-9402d72606caa74e-00"
+    },
+    "bodyRaw": "{\"subscriptionId\":\"00000000-0000-0000-0000-000000000000\",\"notificationId\":11,\"id\":\"02b776de-23da-4535-9584-5d0d1ef2e7ca\",\"eventType\":\"ms.vss-release.release-abandoned-event\",\"publisherId\":\"rm\",\"message\":{\"text\":\"Release Release-1 abandoned.\",\"html\":\"Release <a href='https://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?releaseId=5&_a=release-summary'>Release-5</a> abandoned.\",\"markdown\":\"Release [Release-1](https://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?releaseId=5&_a=release-summary) abandoned.\"},\"detailedMessage\":{\"text\":\"Release Release-1 from release pipeline Fabrikam.CD abandoned.\\r\\nRelease description: QFE release for fixing title\\r\\nContinuousIntegration Requested for Chuck Reinhart\\r\\nBuild: fabrikam.Bd.2016.04.10 & 2 more\",\"html\":\"Release <a href='https://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?releaseId=5&_a=release-summary'>Release-5</a> from <a href='http://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?definitionId=1'>Fabrikam.CD</a> release pipeline abandoned.<br><li>Release description: QFE release for fixing title</li><br><li>ContinuousIntegration Requested for Chuck Reinhart</li><br><li>Build: fabrikam.Bd.2016.04.10 & 2 more <\\\\li>\",\"markdown\":\"Release [Release-1](https://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?releaseId=5&_a=release-summary) from release pipeline [Fabrikam.CD](http://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?definitionId=1) abandoned.\\r\\n - Release description: QFE release for fixing title\\r\\n - ContinuousIntegration Requested for Chuck Reinhart\\r\\n - Build: fabrikam.Bd.2016.04.10 & 2 more\"},\"resource\":{\"release\":{\"id\":4,\"name\":\"Release-1\",\"status\":\"abandoned\",\"createdOn\":\"2016-01-21T08:19:17.26Z\",\"modifiedOn\":\"2016-01-21T08:19:17.26Z\",\"modifiedBy\":{\"displayName\":\"Chuck Reinhart\",\"id\":\"4247c988-4060-4712-abca-ff44681dd78a\"},\"createdBy\":{\"displayName\":\"Chuck Reinhart\",\"id\":\"4247c988-4060-4712-abca-ff44681dd78a\"},\"environments\":[{\"id\":5,\"releaseId\":0,\"name\":\"Dev\",\"status\":\"succeeded\",\"variables\":{},\"variableGroups\":[],\"preDeployApprovals\":[],\"postDeployApprovals\":[],\"preApprovalsSnapshot\":{\"approvals\":[],\"approvalOptions\":{\"requiredApproverCount\":0,\"releaseCreatorCanBeApprover\":true,\"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped\":false,\"enforceIdentityRevalidation\":false,\"timeoutInMinutes\":0,\"executionOrder\":\"beforeGates\"}},\"postApprovalsSnapshot\":{\"approvals\":[]},\"deploySteps\":[],\"rank\":1,\"definitionEnvironmentId\":1,\"queueId\":1,\"environmentOptions\":{\"emailNotificationType\":\"OnlyOnFailure\",\"emailRecipients\":\"release.environment.owner;release.creator\",\"skipArtifactsDownload\":false,\"timeoutInMinutes\":0,\"enableAccessToken\":false,\"publishDeploymentStatus\":false,\"badgeEnabled\":false,\"autoLinkWorkItems\":false,\"pullRequestDeploymentEnabled\":false},\"demands\":[],\"conditions\":[],\"modifiedOn\":\"2016-01-21T08:19:17.26Z\",\"workflowTasks\":[],\"deployPhasesSnapshot\":[],\"owner\":{\"displayName\":\"Chuck Reinhart\",\"id\":\"4247c988-4060-4712-abca-ff44681dd78a\"},\"scheduledDeploymentTime\":\"2016-01-21T08:19:17.26Z\",\"schedules\":[],\"release\":{\"id\":5,\"name\":\"Release-5\",\"_links\":{}},\"preDeploymentGatesSnapshot\":{\"id\":0,\"gatesOptions\":null,\"gates\":[]},\"postDeploymentGatesSnapshot\":{\"id\":0,\"gatesOptions\":null,\"gates\":[]}}],\"variables\":{},\"variableGroups\":[],\"artifacts\":[{\"sourceId\":\"31419848-1780-4137-b7e3-62092e986fd6:1\",\"type\":\"Build\",\"alias\":\"Fabrikam.CI\",\"definitionReference\":{\"Definition\":{\"id\":\"1\",\"name\":\"Fabrikam.CI\"},\"Project\":{\"id\":\"31419848-1780-4137-b7e3-62092e986fd6\",\"name\":\"Fabrikam\"}},\"isPrimary\":true,\"isRetained\":false}],\"releaseDefinition\":{\"id\":1,\"name\":\"Fabrikam.CD\",\"projectReference\":null,\"url\":\"http://fabfiber.vsrm.visualstudio.com/Fabrikam-Fiber-Git/_apis/Release/definitions/1\",\"_links\":{}},\"releaseDefinitionRevision\":0,\"description\":\"QFE release for fixing title\",\"reason\":\"continuousIntegration\",\"releaseNameFormat\":\"Release-$(rev:r)\",\"keepForever\":false,\"definitionSnapshotRevision\":0,\"comment\":\"\",\"logsContainerUrl\":null,\"_links\":{\"web\":{\"href\":\"https://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_release?releaseId=1&_a=release-summary\"}},\"tags\":[],\"triggeringArtifactAlias\":null,\"projectReference\":null},\"project\":{\"id\":\"00000000-0000-0000-0000-000000000000\",\"name\":\"Fabrikam\"},\"id\":0,\"url\":null},\"resourceVersion\":\"3.0-preview.1\",\"resourceContainers\":{\"collection\":{\"id\":\"c12d0eb8-e382-443b-9f9c-c52cba5014c2\"},\"account\":{\"id\":\"f844ec47-a9db-4511-8281-8b63f4eaf94e\"},\"project\":{\"id\":\"be9b3917-87e6-42a4-a549-2bc06a7a878f\"}},\"createdDate\":\"2021-04-30T19:27:22.5586487Z\"}",
+    "body": {
+      "subscriptionId": "00000000-0000-0000-0000-000000000000",
+      "notificationId": 11,
+      "id": "02b776de-23da-4535-9584-5d0d1ef2e7ca",
+      "eventType": "ms.vss-release.release-abandoned-event",
+      "publisherId": "rm",
+      "message": {
+        "text": "Release Release-1 abandoned.",
+        "html": "Release <a href='https://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?releaseId=5&_a=release-summary'>Release-5</a> abandoned.",
+        "markdown": "Release [Release-1](https://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?releaseId=5&_a=release-summary) abandoned."
+      },
+      "detailedMessage": {
+        "text": "Release Release-1 from release pipeline Fabrikam.CD abandoned.\r\nRelease description: QFE release for fixing title\r\nContinuousIntegration Requested for Chuck Reinhart\r\nBuild: fabrikam.Bd.2016.04.10 & 2 more",
+        "html": "Release <a href='https://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?releaseId=5&_a=release-summary'>Release-5</a> from <a href='http://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?definitionId=1'>Fabrikam.CD</a> release pipeline abandoned.<br><li>Release description: QFE release for fixing title</li><br><li>ContinuousIntegration Requested for Chuck Reinhart</li><br><li>Build: fabrikam.Bd.2016.04.10 & 2 more <\\li>",
+        "markdown": "Release [Release-1](https://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?releaseId=5&_a=release-summary) from release pipeline [Fabrikam.CD](http://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?definitionId=1) abandoned.\r\n - Release description: QFE release for fixing title\r\n - ContinuousIntegration Requested for Chuck Reinhart\r\n - Build: fabrikam.Bd.2016.04.10 & 2 more"
+      },
+      "resource": {
+        "release": {
+          "id": 4,
+          "name": "Release-1",
+          "status": "abandoned",
+          "createdOn": "2016-01-21T08:19:17.26Z",
+          "modifiedOn": "2016-01-21T08:19:17.26Z",
+          "modifiedBy": {
+            "displayName": "Chuck Reinhart",
+            "id": "4247c988-4060-4712-abca-ff44681dd78a"
+          },
+          "createdBy": {
+            "displayName": "Chuck Reinhart",
+            "id": "4247c988-4060-4712-abca-ff44681dd78a"
+          },
+          "environments": [
+            {
+              "id": 5,
+              "releaseId": 0,
+              "name": "Dev",
+              "status": "succeeded",
+              "variables": {},
+              "variableGroups": [],
+              "preDeployApprovals": [],
+              "postDeployApprovals": [],
+              "preApprovalsSnapshot": {
+                "approvals": [],
+                "approvalOptions": {
+                  "requiredApproverCount": 0,
+                  "releaseCreatorCanBeApprover": true,
+                  "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                  "enforceIdentityRevalidation": false,
+                  "timeoutInMinutes": 0,
+                  "executionOrder": "beforeGates"
+                }
+              },
+              "postApprovalsSnapshot": {
+                "approvals": []
+              },
+              "deploySteps": [],
+              "rank": 1,
+              "definitionEnvironmentId": 1,
+              "queueId": 1,
+              "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": false,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+              },
+              "demands": [],
+              "conditions": [],
+              "modifiedOn": "2016-01-21T08:19:17.26Z",
+              "workflowTasks": [],
+              "deployPhasesSnapshot": [],
+              "owner": {
+                "displayName": "Chuck Reinhart",
+                "id": "4247c988-4060-4712-abca-ff44681dd78a"
+              },
+              "scheduledDeploymentTime": "2016-01-21T08:19:17.26Z",
+              "schedules": [],
+              "release": {
+                "id": 5,
+                "name": "Release-5",
+                "_links": {}
+              },
+              "preDeploymentGatesSnapshot": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+              },
+              "postDeploymentGatesSnapshot": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+              }
+            }
+          ],
+          "variables": {},
+          "variableGroups": [],
+          "artifacts": [
+            {
+              "sourceId": "31419848-1780-4137-b7e3-62092e986fd6:1",
+              "type": "Build",
+              "alias": "Fabrikam.CI",
+              "definitionReference": {
+                "Definition": {
+                  "id": "1",
+                  "name": "Fabrikam.CI"
+                },
+                "Project": {
+                  "id": "31419848-1780-4137-b7e3-62092e986fd6",
+                  "name": "Fabrikam"
+                }
+              },
+              "isPrimary": true,
+              "isRetained": false
+            }
+          ],
+          "releaseDefinition": {
+            "id": 1,
+            "name": "Fabrikam.CD",
+            "projectReference": null,
+            "url": "http://fabfiber.vsrm.visualstudio.com/Fabrikam-Fiber-Git/_apis/Release/definitions/1",
+            "_links": {}
+          },
+          "releaseDefinitionRevision": 0,
+          "description": "QFE release for fixing title",
+          "reason": "continuousIntegration",
+          "releaseNameFormat": "Release-$(rev:r)",
+          "keepForever": false,
+          "definitionSnapshotRevision": 0,
+          "comment": "",
+          "logsContainerUrl": null,
+          "_links": {
+            "web": {
+              "href": "https://fabfiber.visualstudio.com/Fabrikam-Fiber-Git/_release?releaseId=1&_a=release-summary"
+            }
+          },
+          "tags": [],
+          "triggeringArtifactAlias": null,
+          "projectReference": null
+        },
+        "project": {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "name": "Fabrikam"
+        },
+        "id": 0,
+        "url": null
+      },
+      "resourceVersion": "3.0-preview.1",
+      "resourceContainers": {
+        "collection": {
+          "id": "c12d0eb8-e382-443b-9f9c-c52cba5014c2"
+        },
+        "account": {
+          "id": "f844ec47-a9db-4511-8281-8b63f4eaf94e"
+        },
+        "project": {
+          "id": "be9b3917-87e6-42a4-a549-2bc06a7a878f"
+        }
+      },
+      "createdDate": "2021-04-30T19:27:22.5586487Z"
+    }
+  }

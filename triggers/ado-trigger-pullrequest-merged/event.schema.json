@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "url": {
+        "type": "string",
+        "description": "Pull request URL"
+      },
+      "repositoryURL": {
+        "type": "string",
+        "description": "Branch that the changes were pulled into (destination for the PR)"
+      },
+      "sourceRefName": {
+        "type": "string",
+        "description": "Source branch reference"
+      },
+      "targetRefName": {
+        "type": "string",
+        "description": "targetBranchreference"
+      }
+    },
+    "required": [
+      "url",
+      "repositoryURL",
+      "sourceRefName",
+      "targetRefName"
+    ],
+    "additionalProperties": false
+}

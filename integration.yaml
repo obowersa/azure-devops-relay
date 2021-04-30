@@ -1,0 +1,21 @@
+apiVersion: integration/v1
+kind: Integration
+name: azure_devops
+channel: alpha
+version: v20213004
+summary: Azure Devops
+license: Apache-2.0
+homepage:
+source: 
+
+description: |
+  Azure Devops service connector webhook integration
+owner:
+  name: Intelligent Growth Solutions
+  email: owen@obowersa.net
+  url:
+
+tags:
+- source control
+- git
+- azure

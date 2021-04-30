@@ -1,0 +1,58 @@
+{
+    "method": "POST",
+    "path": "/",
+    "query": {},
+    "headers": {
+      "x-forwarded-for": "40.74.28.4",
+      "x-forwarded-proto": "https",
+      "x-forwarded-port": "443",
+      "host": "114024cc690dbfeb3e3fa269c3ce447f.m.pipedream.net",
+      "x-amzn-trace-id": "Root=1-608c58bf-41ea155d237efd845005cff0",
+      "content-length": "936",
+      "x-vss-activityid": "0d464066-facf-0009-b331-4bc93e32d701",
+      "x-vss-subscriptionid": "00000000-0000-0000-0000-000000000000",
+      "user-agent": "VSServices/16.183.31126.1 (w3wp.exe)",
+      "content-type": "application/json; charset=utf-8",
+      "request-context": "appId=cid-v1:170d3aea-0aa1-4cd0-9cf2-018ca9393b0c",
+      "request-id": "|f31c50e05e90454ab18f92340fc21217.a5c91d93e1e29749.",
+      "traceparent": "00-f31c50e05e90454ab18f92340fc21217-a5c91d93e1e29749-00"
+    },
+    "bodyRaw": "{\"subscriptionId\":\"00000000-0000-0000-0000-000000000000\",\"notificationId\":7,\"id\":\"01e9d503-4dc8-4213-b068-9cf1be104797\",\"eventType\":\"elasticagentpool.resized\",\"publisherId\":\"distributedtask\",\"message\":{\"text\":\"\\\"Resizing pool Sample pool from 1 to 5 VMs.\",\"html\":\"\\\"Resizing pool Sample pool from 1 to 5 VMs.\",\"markdown\":\"\\\"Resizing pool Sample pool from 1 to 5 VMs.\"},\"detailedMessage\":{\"text\":\"\\\"Resizing pool Sample pool from 1 to 5 VMs.\",\"html\":\"\\\"Resizing pool Sample pool from 1 to 5 VMs.\",\"markdown\":\"\\\"Resizing pool Sample pool from 1 to 5 VMs.\"},\"resource\":{\"poolId\":1,\"poolName\":\"Sample pool\",\"resourceId\":\"VM Scale Set Id\",\"previousSize\":1,\"newSize\":5},\"resourceVersion\":\"1.0-preview.1\",\"resourceContainers\":{\"collection\":{\"id\":\"c12d0eb8-e382-443b-9f9c-c52cba5014c2\"},\"account\":{\"id\":\"f844ec47-a9db-4511-8281-8b63f4eaf94e\"},\"project\":{\"id\":\"be9b3917-87e6-42a4-a549-2bc06a7a878f\"}},\"createdDate\":\"2021-04-30T19:21:35.075163Z\"}",
+    "body": {
+      "subscriptionId": "00000000-0000-0000-0000-000000000000",
+      "notificationId": 7,
+      "id": "01e9d503-4dc8-4213-b068-9cf1be104797",
+      "eventType": "elasticagentpool.resized",
+      "publisherId": "distributedtask",
+      "message": {
+        "text": "\"Resizing pool Sample pool from 1 to 5 VMs.",
+        "html": "\"Resizing pool Sample pool from 1 to 5 VMs.",
+        "markdown": "\"Resizing pool Sample pool from 1 to 5 VMs."
+      },
+      "detailedMessage": {
+        "text": "\"Resizing pool Sample pool from 1 to 5 VMs.",
+        "html": "\"Resizing pool Sample pool from 1 to 5 VMs.",
+        "markdown": "\"Resizing pool Sample pool from 1 to 5 VMs."
+      },
+      "resource": {
+        "poolId": 1,
+        "poolName": "Sample pool",
+        "resourceId": "VM Scale Set Id",
+        "previousSize": 1,
+        "newSize": 5
+      },
+      "resourceVersion": "1.0-preview.1",
+      "resourceContainers": {
+        "collection": {
+          "id": "c12d0eb8-e382-443b-9f9c-c52cba5014c2"
+        },
+        "account": {
+          "id": "f844ec47-a9db-4511-8281-8b63f4eaf94e"
+        },
+        "project": {
+          "id": "be9b3917-87e6-42a4-a549-2bc06a7a878f"
+        }
+      },
+      "createdDate": "2021-04-30T19:21:35.075163Z"
+    }
+  }
